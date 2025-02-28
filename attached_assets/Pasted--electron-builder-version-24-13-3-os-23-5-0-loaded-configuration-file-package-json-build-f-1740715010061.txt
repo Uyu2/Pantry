@@ -1,0 +1,48 @@
+• electron-builder  version=24.13.3 os=23.5.0
+  • loaded configuration  file=package.json ("build" field)
+  • writing effective config  file=dist/builder-effective-config.yaml
+  • packaging       platform=darwin arch=x64 electron=34.3.0 appOutDir=dist/mac
+  ⨯ open : no such file or directory
+github.com/develar/app-builder/pkg/icons.LoadImage
+	/Volumes/data/Documents/app-builder/pkg/icons/image-util.go:27
+github.com/develar/app-builder/pkg/icons.loadImage
+	/Volumes/data/Documents/app-builder/pkg/icons/icon-converter.go:334
+github.com/develar/app-builder/pkg/icons.(*InputFileInfo).GetMaxImage
+	/Volumes/data/Documents/app-builder/pkg/icons/icons-api.go:51
+github.com/develar/app-builder/pkg/icons.ConvertToIcns
+	/Volumes/data/Documents/app-builder/pkg/icons/icns.go:69
+github.com/develar/app-builder/pkg/icons.convertSingleFile
+	/Volumes/data/Documents/app-builder/pkg/icons/icon-converter.go:286
+github.com/develar/app-builder/pkg/icons.doConvertIcon
+	/Volumes/data/Documents/app-builder/pkg/icons/icon-converter.go:247
+github.com/develar/app-builder/pkg/icons.ConvertIcon
+	/Volumes/data/Documents/app-builder/pkg/icons/icon-converter.go:56
+github.com/develar/app-builder/pkg/icons.ConfigureCommand.func1
+	/Volumes/data/Documents/app-builder/pkg/icons/icon-converter.go:33
+github.com/alecthomas/kingpin.(*actionMixin).applyActions
+	/Volumes/data/go/pkg/mod/github.com/alecthomas/kingpin@v2.2.6+incompatible/actions.go:28
+github.com/alecthomas/kingpin.(*Application).applyActions
+	/Volumes/data/go/pkg/mod/github.com/alecthomas/kingpin@v2.2.6+incompatible/app.go:557
+github.com/alecthomas/kingpin.(*Application).execute
+	/Volumes/data/go/pkg/mod/github.com/alecthomas/kingpin@v2.2.6+incompatible/app.go:390
+github.com/alecthomas/kingpin.(*Application).Parse
+	/Volumes/data/go/pkg/mod/github.com/alecthomas/kingpin@v2.2.6+incompatible/app.go:222
+main.main
+	/Volumes/data/Documents/app-builder/main.go:90
+runtime.main
+	/usr/local/Cellar/go/1.17/libexec/src/runtime/proc.go:255
+runtime.goexit
+	/usr/local/Cellar/go/1.17/libexec/src/runtime/asm_amd64.s:1581  
+  ⨯ /Users/uyu/Desktop/PiePantry/electron/node_modules/app-builder-bin/mac/app-builder_amd64 process failed ERR_ELECTRON_BUILDER_CANNOT_EXECUTE
+Exit code:
+1  failedTask=build stackTrace=Error: /Users/uyu/Desktop/PiePantry/electron/node_modules/app-builder-bin/mac/app-builder_amd64 process failed ERR_ELECTRON_BUILDER_CANNOT_EXECUTE
+Exit code:
+1
+    at ChildProcess.<anonymous> (/Users/uyu/Desktop/PiePantry/electron/node_modules/builder-util/src/util.ts:252:14)
+    at Object.onceWrapper (node:events:633:26)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:351:12)
+(base) uyu@Jimmys-Android-Tablet electron % 

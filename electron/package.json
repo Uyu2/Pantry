@@ -31,7 +31,6 @@
     "mac": {
       "category": "public.app-category.food-and-drink",
       "target": ["dmg", "zip"],
-      "icon": "../public/frog-icon.svg",
       "darkModeSupport": true,
       "hardenedRuntime": true
     },
