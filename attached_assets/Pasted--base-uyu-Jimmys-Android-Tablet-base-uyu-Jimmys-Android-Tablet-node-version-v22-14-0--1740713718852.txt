@@ -1,0 +1,47 @@
+(base) uyu@Jimmys-Android-Tablet ~ % 
+(base) uyu@Jimmys-Android-Tablet ~ % node --version
+v22.14.0
+(base) uyu@Jimmys-Android-Tablet ~ % cd ~/Desktop
+git clone https://github.com/Uyu2/Pantry.git PiePantry
+cd PiePantry
+npm install
+Cloning into 'PiePantry'...
+remote: Enumerating objects: 101, done.
+remote: Counting objects: 100% (101/101), done.
+remote: Compressing objects: 100% (92/92), done.
+remote: Total 101 (delta 8), reused 101 (delta 8), pack-reused 0 (from 0)
+Receiving objects: 100% (101/101), 1.20 MiB | 3.96 MiB/s, done.
+Resolving deltas: 100% (8/8), done.
+npm warn skipping integrity check for git dependency ssh://git@github.com/electron/node-gyp.git
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+npm warn deprecated npmlog@6.0.2: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated are-we-there-yet@3.0.1: This package is no longer supported.
+npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated gauge@4.0.4: This package is no longer supported.
+
+added 905 packages, and audited 906 packages in 24s
+
+108 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) uyu@Jimmys-Android-Tablet PiePantry % 
