@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main body - light green -->
+  <circle cx="32" cy="32" r="28" fill="#90be6d"/>
+  
+  <!-- Eyes - white base -->
+  <circle cx="22" cy="24" r="8" fill="white"/>
+  <circle cx="42" cy="24" r="8" fill="white"/>
+  
+  <!-- Pupils - black -->
+  <circle cx="22" cy="24" r="4" fill="black"/>
+  <circle cx="42" cy="24" r="4" fill="black"/>
+  
+  <!-- Cheeks - darker green -->
+  <circle cx="18" cy="36" r="6" fill="#76a35d"/>
+  <circle cx="46" cy="36" r="6" fill="#76a35d"/>
+  
+  <!-- Smile -->
+  <path d="M26 40 Q32 44 38 40" stroke="#76a35d" stroke-width="3" fill="none"/>
+  
+  <!-- Small pie on head -->
+  <path d="M28 12 h8 l-4 -6 z" fill="#e5c6a0"/>
+  <path d="M29 12 h6 l-3 -4 z" fill="#e63946"/>
+</svg>

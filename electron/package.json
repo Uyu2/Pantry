@@ -25,12 +25,13 @@
     },
     "files": [
       "main.js",
-      "../dist/**/*"
+      "../dist/**/*",
+      "../public/frog-icon.svg"
     ],
     "mac": {
       "category": "public.app-category.food-and-drink",
       "target": ["dmg", "zip"],
-      "icon": "../public/icon.icns",
+      "icon": "../public/frog-icon.svg",
       "darkModeSupport": true,
       "hardenedRuntime": true
     },

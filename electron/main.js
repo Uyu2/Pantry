@@ -15,7 +15,7 @@ function createWindow() {
       contextIsolation: false
     },
     title: "Pie Pantry",
-    icon: path.join(__dirname, '../public/icon.png'),
+    icon: path.join(__dirname, '../public/frog-icon.svg'),
     show: false // Don't show until ready
   });
 
