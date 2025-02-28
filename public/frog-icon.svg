@@ -3,11 +3,7 @@
   <!-- Simple green circle body using the theme color -->
   <circle cx="32" cy="32" r="30" fill="hsl(120, 40%, 45%)"/>
 
-  <!-- Left eye: vertical oval -->
-  <ellipse cx="22" cy="32" rx="3" ry="6" fill="white"/>
-  <ellipse cx="22" cy="32" rx="1.5" ry="3" fill="black"/>
-
-  <!-- Right eye: vertical oval -->
-  <ellipse cx="42" cy="32" rx="3" ry="6" fill="white"/>
-  <ellipse cx="42" cy="32" rx="1.5" ry="3" fill="black"/>
+  <!-- Eyes: just black vertical ovals -->
+  <ellipse cx="22" cy="32" rx="2" ry="4" fill="black"/>
+  <ellipse cx="42" cy="32" rx="2" ry="4" fill="black"/>
 </svg>
