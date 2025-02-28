@@ -25,7 +25,11 @@ function createWindow() {
     mainWindow.loadURL('http://localhost:3000');
     mainWindow.webContents.openDevTools();
   } else {
-    mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
+    const indexPath = path.join(__dirname, '../dist/public/index.html');
+    console.log('Loading production build from:', indexPath);
+    mainWindow.loadFile(indexPath).catch(err => {
+      console.error('Failed to load index.html:', err);
+    });
   }
 
   // Show window when it's ready to prevent flickering
@@ -51,6 +55,8 @@ function createWindow() {
       setTimeout(() => {
         mainWindow.loadURL('http://localhost:3000');
       }, 3000);
+    } else {
+      console.log('Production build failed to load. Check if the files exist in:', path.join(__dirname, '../dist/public'));
     }
   });
 }
