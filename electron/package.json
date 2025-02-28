@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "A whimsical, frog-themed pie recipe desktop application",
   "main": "main.js",
+  "author": {
+    "name": "Pie Pantry Team",
+    "email": "support@piepantry.com"
+  },
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
