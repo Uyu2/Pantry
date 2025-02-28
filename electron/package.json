@@ -1,5 +1,6 @@
 {
   "name": "pie-pantry",
+  "productName": "Pie Pantry",
   "version": "1.0.0",
   "description": "A whimsical, frog-themed pie recipe desktop application",
   "main": "main.js",
@@ -24,13 +25,28 @@
     ],
     "mac": {
       "category": "public.app-category.food-and-drink",
-      "target": ["dmg", "zip"]
+      "target": ["dmg", "zip"],
+      "icon": "../public/icon.icns",
+      "darkModeSupport": true,
+      "hardenedRuntime": true
     },
-    "win": {
-      "target": "nsis"
-    },
-    "linux": {
-      "target": "AppImage"
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ],
+      "window": {
+        "width": 540,
+        "height": 380
+      }
     }
   }
 }
