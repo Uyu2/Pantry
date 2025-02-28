@@ -1,0 +1,36 @@
+{
+  "name": "pie-pantry",
+  "version": "1.0.0",
+  "description": "A whimsical, frog-themed pie recipe desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.pie-pantry.app",
+    "productName": "Pie Pantry",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "../dist/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.food-and-drink",
+      "target": ["dmg", "zip"]
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
